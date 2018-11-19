@@ -1,0 +1,5145 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.4), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en", "undefined" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema", "http://group-e/ontology" ],
+    "iri" : "http://group-e/ontology",
+    "description" : {
+      "undefined" : "Ontology describing different schools in Dublin"
+    },
+    "labels" : {
+      "en" : "ontology describing different schools in Dublin",
+      "undefined" : "ontology describing different schools in Dublin"
+    },
+    "comments" : {
+      "en" : "Ontology describing different schools in Dublin",
+      "undefined" : "Ontology describing different schools in Dublin"
+    },
+    "other" : {
+      "date" : [ {
+        "identifier" : "date",
+        "language" : "undefined",
+        "value" : "23-Nov-2018",
+        "type" : "label"
+      } ],
+      "contributor" : [ {
+        "identifier" : "contributor",
+        "language" : "undefined",
+        "value" : "Paras",
+        "type" : "label"
+      }, {
+        "identifier" : "contributor",
+        "language" : "undefined",
+        "value" : "Amogh",
+        "type" : "label"
+      }, {
+        "identifier" : "contributor",
+        "language" : "undefined",
+        "value" : "Aditya",
+        "type" : "label"
+      }, {
+        "identifier" : "contributor",
+        "language" : "undefined",
+        "value" : "Shubham",
+        "type" : "label"
+      }, {
+        "identifier" : "contributor",
+        "language" : "undefined",
+        "value" : "Pavan",
+        "type" : "label"
+      } ]
+    }
+  },
+  "namespace" : [ ],
+  "metrics" : {
+    "classCount" : 8,
+    "objectPropertyCount" : 6,
+    "datatypePropertyCount" : 10,
+    "individualCount" : 738
+  },
+  "class" : [ {
+    "id" : "0",
+    "type" : "owl:Class"
+  }, {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "11",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "12",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "13",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "14",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "15",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "18",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "19",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "20",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "10",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "23",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "28",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://group-e/ontology#school",
+    "baseIri" : "http://group-e/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "school",
+      "undefined" : "School"
+    },
+    "subClasses" : [ "1", "2", "3", "4", "5" ],
+    "comment" : {
+      "en" : "Ireland schools",
+      "undefined" : "Ireland schools"
+    },
+    "id" : "0"
+  }, {
+    "iri" : "http://group-e/ontology#primarySchool",
+    "baseIri" : "http://group-e/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "primarySchool",
+      "en" : "Ireland Primary schools",
+      "undefined" : "Ireland Primary School"
+    },
+    "individuals" : [ {
+      "iri" : "http://group-e/ontology#school_70660O",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_70660O"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_70700A",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_70700A"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_76333G",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_76333G"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_70550H",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_70550H"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_72310U",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_72310U"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_72330D",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_72330D"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_71990R",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_71990R"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_70720G",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_70720G"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_71750U",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_71750U"
+      }
+    } ],
+    "comment" : {
+      "en" : "Ireland Primary schools",
+      "undefined" : "Ireland Primary schools"
+    },
+    "id" : "3",
+    "superClasses" : [ "0" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "11",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "12",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "13",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "14",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "15",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://group-e/ontology#secondarySchool",
+    "baseIri" : "http://group-e/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "secondarySchool",
+      "en" : "Ireland Secondary schools",
+      "undefined" : "Ireland Secondary School"
+    },
+    "individuals" : [ {
+      "iri" : "http://group-e/ontology#school_61340S",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_61340S"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_63640R",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_63640R"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60130C",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60130C"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_64310B",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_64310B"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_64500G",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_64500G"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_62010C",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_62010C"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_63600F",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_63600F"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_64770M",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_64770M"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60021U",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60021U"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_61380H",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_61380H"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_65330M",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_65330M"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_62590A",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_62590A"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_65400H",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_65400H"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_62170B",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_62170B"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_65630B",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_65630B"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60741I",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60741I"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_62360G",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_62360G"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60361V",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60361V"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_61830M",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_61830M"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_62320R",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_62320R"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_61450C",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_61450C"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_65440T",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_65440T"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60010P",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60010P"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_63001G",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_63001G"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_63910U",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_63910U"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_61220I",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_61220I"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_61410N",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_61410N"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_61681V",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_61681V"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_65380E",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_65380E"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60851P",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60851P"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60770P",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60770P"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_62270F",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_62270F"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60120W",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60120W"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_62420V",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_62420V"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_64590K",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_64590K"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_62840U",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_62840U"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_64970U",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_64970U"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_62650P",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_62650P"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60160L",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60160L"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_64360Q",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_64360Q"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_65582Q",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_65582Q"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_62000W",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_62000W"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_65340P",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_65340P"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_62421A",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_62421A"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_63860I",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_63860I"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_63630O",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_63630O"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_65150K",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_65150K"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_62621I",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_62621I"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_68263P",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_68263P"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_62770C",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_62770C"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_61440W",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_61440W"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_62350D",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_62350D"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60720A",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60720A"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_64971W",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_64971W"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_61682A",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_61682A"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_63710M",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_63710M"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_61820J",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_61820J"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_63900R",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_63900R"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_61590S",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_61590S"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_65500L",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_65500L"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_68101M",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_68101M"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60853T",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60853T"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_64260M",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_64260M"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_64520M",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_64520M"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_62450H",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_62450H"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_62692I",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_62692I"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_68262N",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_68262N"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60081P",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60081P"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_63660A",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_63660A"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_63620L",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_63620L"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_64370T",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_64370T"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_64820B",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_64820B"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_63550Q",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_63550Q"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_62530F",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_62530F"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_68071G",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_68071G"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_65460C",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_65460C"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_61702D",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_61702D"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60991I",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60991I"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_68083N",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_68083N"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_68261L",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_68261L"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60260P",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60260P"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_64630T",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_64630T"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60843Q",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60843Q"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_68070E",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_68070E"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_61580P",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_61580P"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_62210K",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_62210K"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_64570E",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_64570E"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_62020F",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_62020F"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60140F",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60140F"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_64760J",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_64760J"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60750J",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60750J"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60872A",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60872A"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_65470F",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_65470F"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_64410F",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_64410F"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_63310T",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_63310T"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_64180O",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_64180O"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60250M",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60250M"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60791A",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60791A"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_62693K",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_62693K"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_68081J",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_68081J"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60902G",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60902G"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60343T",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60343T"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_63661C",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_63661C"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_64640W",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_64640W"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_65620V",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_65620V"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_65240L",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_65240L"
+      }
+    } ],
+    "comment" : {
+      "en" : "Ireland Secondary schools",
+      "undefined" : "Ireland Secondary schools"
+    },
+    "id" : "4",
+    "superClasses" : [ "0" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "18",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "19",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "20",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://group-e/ontology#othersSchool",
+    "baseIri" : "http://group-e/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "othersSchool",
+      "en" : "Ireland others schools",
+      "undefined" : "Ireland others School"
+    },
+    "individuals" : [ {
+      "iri" : "http://group-e/ontology#school_60481I",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60481I"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_62200H",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_62200H"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_62890M",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_62890M"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_68121S",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_68121S"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60263V",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60263V"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_65180T",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_65180T"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_61691B",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_61691B"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_63870L",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_63870L"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_61570M",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_61570M"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60590N",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60590N"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_71991T",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_71991T"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_71980O",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_71980O"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_61680T",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_61680T"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_63300Q",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_63300Q"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60264A",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60264A"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_71520D",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_71520D"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60240J",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60240J"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_64610N",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_64610N"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60470D",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60470D"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_70670R",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_70670R"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_63760E",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_63760E"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_68241F",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_68241F"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_68264R",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_68264R"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_71650Q",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_71650Q"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_64510J",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_64510J"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_72400V",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_72400V"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_62880J",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_62880J"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60471F",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60471F"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_61790D",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_61790D"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_70310K",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_70310K"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_61560J",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_61560J"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_70540E",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_70540E"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_71300M",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_71300M"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60581M",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60581M"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60121B",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60121B"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_62540I",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_62540I"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_62310O",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_62310O"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_65190W",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_65190W"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_70430U",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_70430U"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_62661U",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_62661U"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_64620Q",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_64620Q"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_63750B",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_63750B"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_76233C",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_76233C"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_70200D",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_70200D"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60690R",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60690R"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_62870G",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_62870G"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60570H",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60570H"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_62531H",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_62531H"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60122D",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60122D"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_63090I",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_63090I"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_64940L",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_64940L"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_62301N",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_62301N"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_62640M",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_62640M"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60340N",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60340N"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_71430C",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_71430C"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_71200I",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_71200I"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_64710R",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_64710R"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_71103K",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_71103K"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_61550G",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_61550G"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_63850F",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_63850F"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_70570N",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_70570N"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_61780A",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_61780A"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_61320M",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_61320M"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_76101I",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_76101I"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_71660T",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_71660T"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_71540J",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_71540J"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_71310P",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_71310P"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60341P",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60341P"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_71770D",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_71770D"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_65270U",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_65270U"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_62990Q",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_62990Q"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_76102K",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_76102K"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60450U",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60450U"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_72520I",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_72520I"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_70440A",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_70440A"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_61770U",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_61770U"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60100Q",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60100Q"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_62981P",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_62981P"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_64950O",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_64950O"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60560E",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60560E"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_65181V",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_65181V"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_62630J",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_62630J"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_70100W",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_70100W"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_76127D",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_76127D"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_70330Q",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_70330Q"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_63610I",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_63610I"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_63840C",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_63840C"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_65170Q",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_65170Q"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_70560K",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_70560K"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60342R",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60342R"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_61661P",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_61661P"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_72420E",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_72420E"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_70790E",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_70790E"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_76103M",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_76103M"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_64830E",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_64830E"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_63730S",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_63730S"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60670L",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60670L"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_62520C",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_62520C"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_65280A",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_65280A"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_62980N",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_62980N"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_71780G",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_71780G"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60561G",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60561G"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_72530L",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_72530L"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_72300R",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_72300R"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60440R",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60440R"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_71320S",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_71320S"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60320H",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60320H"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_65140H",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_65140H"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_71220O",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_71220O"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_65370B",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_65370B"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_71680C",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_71680C"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_63191O",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_63191O"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_71244F",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_71244F"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60550B",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60550B"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_70590T",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_70590T"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60792C",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60792C"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_62090D",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_62090D"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60562I",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60562I"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_70130I",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_70130I"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_91504R",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_91504R"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_70360C",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_70360C"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_70021D",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_70021D"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_63070C",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_63070C"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_72430H",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_72430H"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_76105Q",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_76105Q"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60321J",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60321J"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_76106S",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_76106S"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60660I",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60660I"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_62861F",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_62861F"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60430O",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60430O"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_63190M",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_63190M"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_71124S",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_71124S"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_71790J",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_71790J"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_70250S",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_70250S"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60890C",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60890C"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_64170L",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_64170L"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_62970K",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_62970K"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_91503P",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_91503P"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_61301I",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_61301I"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_63841E",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_63841E"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_71560P",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_71560P"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_64290V",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_64290V"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_71330V",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_71330V"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_76107U",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_76107U"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_71690F",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_71690F"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_61520U",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_61520U"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_64930I",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_64930I"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60310E",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60310E"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_64270P",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_64270P"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_72210Q",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_72210Q"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_81009B",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_81009B"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_71000A",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_71000A"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_64700O",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_64700O"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_70350W",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_70350W"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_71242B",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_71242B"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_63290Q",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_63290Q"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60891E",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60891E"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_76313A",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_76313A"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_72440K",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_72440K"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_81008W",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_81008W"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_71230R",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_71230R"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60540V",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60540V"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_91506V",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_91506V"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_62960H",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_62960H"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60420L",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60420L"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_91409A",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_91409A"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_70240P",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_70240P"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_61860V",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_61860V"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60650F",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60650F"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_62730N",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_62730N"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60892G",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60892G"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_64810V",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_64810V"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_81007U",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_81007U"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_91408V",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_91408V"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_72320A",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_72320A"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60300B",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60300B"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_65490L",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_65490L"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_71570S",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_71570S"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_63171I",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_63171I"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_63280N",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_63280N"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_62830R",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_62830R"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_63920A",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_63920A"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_63050T",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_63050T"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_72220T",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_72220T"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_70380I",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_70380I"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_64900W",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_64900W"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_72450N",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_72450N"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_65350S",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_65350S"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_61510R",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_61510R"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60530S",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60530S"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_71470O",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_71470O"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_71240U",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_71240U"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_70910L",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_70910L"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_65241N",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_65241N"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_71120K",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_71120K"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60640C",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60640C"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60410I",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60410I"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_72560U",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_72560U"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_64150F",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_64150F"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60870T",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60870T"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_71241W",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_71241W"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_63170G",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_63170G"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_72100J",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_72100J"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_71020G",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_71020G"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_63270K",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_63270K"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60520P",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60520P"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_65130E",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_65130E"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_63040Q",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_63040Q"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_71250A",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_71250A"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_64250J",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_64250J"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_61730I",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_61730I"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_62290L",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_62290L"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60871V",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60871V"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_76090G",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_76090G"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_62060R",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_62060R"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60860Q",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60860Q"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60400F",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60400F"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_62180E",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_62180E"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_61080S",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_61080S"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_63160D",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_63160D"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60630W",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60630W"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_76091I",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_76091I"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_65010R",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_65010R"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60510M",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60510M"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_68080H",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_68080H"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_71030J",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_71030J"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_61950W",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_61950W"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_64580H",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_64580H"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_91411K",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_91411K"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_81014R",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_81014R"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_64350N",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_64350N"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_64240G",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_64240G"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_61720F",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_61720F"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_62050O",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_62050O"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_76092K",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_76092K"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_81002K",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_81002K"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_70821M",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_70821M"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_65100S",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_65100S"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_72010I",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_72010I"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60511O",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60511O"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_61070P",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_61070P"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_64130W",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_64130W"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_71370K",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_71370K"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_61710C",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_61710C"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_91302F",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_91302F"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_81013P",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_81013P"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_64690O",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_64690O"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_62930V",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_62930V"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_76093M",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_76093M"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_81001I",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_81001I"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_62061T",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_62061T"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_71140Q",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_71140Q"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_76081F",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_76081F"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60090Q",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60090Q"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_71270G",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_71270G"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_72480W",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_72480W"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_76070A",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_76070A"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60500J",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60500J"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_70390L",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_70390L"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_70160R",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_70160R"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_81012N",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_81012N"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_61940T",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_61940T"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_72020L",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_72020L"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_70920O",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_70920O"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_71040M",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_71040M"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_72130S",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_72130S"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_61060M",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_61060M"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_72360M",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_72360M"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60731F",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60731F"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60840K",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60840K"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_91412M",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_91412M"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_91315O",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_91315O"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_65450W",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_65450W"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_70931T",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_70931T"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_81011L",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_81011L"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_70280E",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_70280E"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_71380N",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_71380N"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_76083J",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_76083J"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60092U",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60092U"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_71150T",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_71150T"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_70081V",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_70081V"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_68072I",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_68072I"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_71280J",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_71280J"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60732H",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60732H"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_62260C",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_62260C"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_68181N",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_68181N"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60841M",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60841M"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_76060U",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_76060U"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_72490C",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_72490C"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_61930Q",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_61930Q"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_76096S",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_76096S"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_81006S",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_81006S"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_64220A",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_64220A"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_76073G",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_76073G"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_63130R",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_63130R"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_70610W",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_70610W"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_72140V",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_72140V"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_91511O",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_91511O"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_81005Q",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_81005Q"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_70840Q",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_70840Q"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_62380M",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_62380M"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60070K",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60070K"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_76085N",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_76085N"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_71390Q",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_71390Q"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_65320J",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_65320J"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_61800D",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_61800D"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_61051L",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_61051L"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60710U",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60710U"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_81017A",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_81017A"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_76195U",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_76195U"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_68082L",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_68082L"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_81016V",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_81016V"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_71700F",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_71700F"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_76098W",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_76098W"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60820E",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60820E"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_64691Q",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_64691Q"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_61811I",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_61811I"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_71290M",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_71290M"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_70180A",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_70180A"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60180R",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60180R"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_61920N",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_61920N"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_70710D",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_70710D"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_62900M",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_62900M"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_76063D",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_76063D"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_76099B",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_76099B"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_62370J",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_62370J"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_76196W",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_76196W"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60290B",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60290B"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_70600T",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_70600T"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_64450R",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_64450R"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_62140P",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_62140P"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_91513S",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_91513S"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_76173K",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_76173K"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60700R",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60700R"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_70620C",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_70620C"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_68161H",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_68161H"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_61150N",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_61150N"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_64200R",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_64200R"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_72050U",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_72050U"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60291D",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60291D"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60930L",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60930L"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60810B",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60810B"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_70740M",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_70740M"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_62470N",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_62470N"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_76088T",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_76088T"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_72171J",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_72171J"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_91342R",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_91342R"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_61910K",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_61910K"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_76076M",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_76076M"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_76065H",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_76065H"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_71180F",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_71180F"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_63570W",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_63570W"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_64420I",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_64420I"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_61260U",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_61260U"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_71710I",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_71710I"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_76150V",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_76150V"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_68075O",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_68075O"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60050E",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60050E"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_62130M",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_62130M"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_64880T",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_64880T"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_70400L",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_70400L"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_63210P",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_63210P"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_68074M",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_68074M"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_76066J",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_76066J"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_62460K",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_62460K"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_65300D",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_65300D"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_62690E",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_62690E"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60390F",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60390F"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_70500P",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_70500P"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_63101K",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_63101K"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_70730J",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_70730J"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_61140K",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_61140K"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_61370E",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_61370E"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_71840V",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_71840V"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_70960D",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_70960D"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_61250R",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_61250R"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_76067L",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_76067L"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_65410K",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_65410K"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60040B",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60040B"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_63451O",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_63451O"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_63560T",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_63560T"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_76273O",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_76273O"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60800V",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60800V"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_63221U",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_63221U"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_64660F",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_64660F"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_64201T",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_64201T"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_71950F",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_71950F"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60910F",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60910F"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_71600B",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_71600B"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_61020A",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_61020A"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_64890W",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_64890W"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_61141M",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_61141M"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_76079S",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_76079S"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_76394D",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_76394D"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_63100I",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_63100I"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_62580U",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_62580U"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_91573N",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_91573N"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_68068R",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_68068R"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60380C",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60380C"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60041D",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60041D"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_63890R",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_63890R"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_64750G",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_64750G"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_65090S",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_65090S"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_71620H",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_71620H"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_61360B",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_61360B"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_70990M",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_70990M"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_81010J",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_81010J"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_63430G",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_63430G"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_68141B",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_68141B"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_61130H",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_61130H"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_70300H",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_70300H"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_76068N",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_76068N"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60042F",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60042F"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_68067P",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_68067P"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_61010U",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_61010U"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_63211R",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_63211R"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_71730O",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_71730O"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60490J",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60490J"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_72180K",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_72180K"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_62691G",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_62691G"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60381E",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60381E"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_65080P",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_65080P"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_62570R",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_62570R"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_68285C",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_68285C"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_71610E",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_71610E"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_70420R",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_70420R"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_65610S",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_65610S"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60272W",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60272W"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60030V",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60030V"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_76069P",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_76069P"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_62440E",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_62440E"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_64990D",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_64990D"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_63650U",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_63650U"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_63880O",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_63880O"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60491L",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60491L"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_71630K",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_71630K"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_68078U",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_68078U"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_61120E",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_61120E"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_70750P",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_70750P"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60261R",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60261R"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_71510A",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_71510A"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_70641K",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_70641K"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60370W",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60370W"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60480G",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60480G"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_63891T",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_63891T"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_71970L",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_71970L"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60383I",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60383I"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_68077S",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_68077S"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_61690W",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_61690W"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_72190N",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_72190N"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_60262T",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_60262T"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_71850B",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_71850B"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_62330U",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_62330U"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_62560O",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_62560O"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_70410O",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_70410O"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_70640I",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_70640I"
+      }
+    } ],
+    "comment" : {
+      "en" : "Ireland others schools",
+      "undefined" : "Ireland others schools"
+    },
+    "id" : "1",
+    "superClasses" : [ "0" ]
+  }, {
+    "iri" : "http://group-e/ontology#communitySchool",
+    "baseIri" : "http://group-e/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "communitySchool",
+      "en" : "Ireland Community schools",
+      "undefined" : "Ireland Community School"
+    },
+    "individuals" : [ {
+      "iri" : "http://group-e/ontology#school_91509E",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_91509E"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_91517D",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_91517D"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_91614B",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_91614B"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_91495T",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_91495T"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_91400F",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_91400F"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_91436D",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_91436D"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_91339F",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_91339F"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_91407T",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_91407T"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_91310E",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_91310E"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_91500J",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_91500J"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_91431Q",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_91431Q"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_91491L",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_91491L"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_91318U",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_91318U"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_91330K",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_91330K"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_91512Q",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_91512Q"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_91390F",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_91390F"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_91386O",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_91386O"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_91516B",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_91516B"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_91427C",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_91427C"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_91494R",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_91494R"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_91397T",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_91397T"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_91508C",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_91508C"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_91499E",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_91499E"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_91447I",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_91447I"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_91338D",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_91338D"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_91406R",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_91406R"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_91414Q",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_91414Q"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_91305L",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_91305L"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_91462E",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_91462E"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_91325R",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_91325R"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_91515W",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_91515W"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_91360T",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_91360T"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_72290R",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_72290R"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_91426A",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_91426A"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_91344V",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_91344V"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_91441T",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_91441T"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_91498C",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_91498C"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_91301D",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_91301D"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_91337B",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_91337B"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_91519H",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_91519H"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_91502N",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_91502N"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_91316Q",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_91316Q"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_91413O",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_91413O"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_91510M",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_91510M"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_91376L",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_91376L"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_91461C",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_91461C"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_91372D",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_91372D"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_91388S",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_91388S"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_91336W",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_91336W"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_91493P",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_91493P"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_91530S",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_91530S"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_91396R",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_91396R"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_91324P",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_91324P"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_91332O",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_91332O"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_91514U",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_91514U"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_91351S",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_91351S"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_91496V",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_91496V"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_91497A",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_91497A"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_91550B",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_91550B"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_91356F",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_91356F"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_91505T",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_91505T"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_91448K",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_91448K"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_91456J",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_91456J"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_91371B",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_91371B"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_91501L",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_91501L"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_91387Q",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_91387Q"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_91335U",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_91335U"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_91492N",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_91492N"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_91343T",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_91343T"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_91391H",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_91391H"
+      }
+    } ],
+    "comment" : {
+      "en" : "Ireland Community schools",
+      "undefined" : "Ireland Community schools"
+    },
+    "id" : "2",
+    "superClasses" : [ "0" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "10",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "23",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://group-e/ontology#communityCollegeSchool",
+    "baseIri" : "http://group-e/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "communityCollegeSchool",
+      "en" : "community college schools",
+      "undefined" : "community college School"
+    },
+    "individuals" : [ {
+      "iri" : "http://group-e/ontology#school_70810H",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_70810H"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_76072E",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_76072E"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_71450I",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_71450I"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_76064F",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_76064F"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_71123Q",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_71123Q"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_76193Q",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_76193Q"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_70150O",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_70150O"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_71761C",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_71761C"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_72280O",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_72280O"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_70760S",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_70760S"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_70041J",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_70041J"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_76129H",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_76129H"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_71410T",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_71410T"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_76084L",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_76084L"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_70970G",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_70970G"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_71050P",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_71050P"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_70691C",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_70691C"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_70080T",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_70080T"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_70950A",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_70950A"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_76130P",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_76130P"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_71960I",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_71960I"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_76194S",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_76194S"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_72370P",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_72370P"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_70860W",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_70860W"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_70040H",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_70040H"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_76097U",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_76097U"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_70141N",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_70141N"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_76089V",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_76089V"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_72540O",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_72540O"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_70650L",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_70650L"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_70020B",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_70020B"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_70460G",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_70460G"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_70880F",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_70880F"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_76077O",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_76077O"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_70121H",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_70121H"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_72241E",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_72241E"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_72230W",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_72230W"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_70901K",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_70901K"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_70800E",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_70800E"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_76062B",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_76062B"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_71400Q",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_71400Q"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_70770V",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_70770V"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_70520V",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_70520V"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_71101G",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_71101G"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_76061W",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_76061W"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_76414G",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_76414G"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_70140L",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_70140L"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_76086P",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_76086P"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_76078Q",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_76078Q"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_76082H",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_76082H"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_70120F",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_70120F"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_71420W",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_71420W"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_70900I",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_70900I"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_76213T",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_76213T"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_70260V",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_70260V"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_71720L",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_71720L"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_70680U",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_70680U"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_71102I",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_71102I"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_76293U",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_76293U"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_71110H",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_71110H"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_70010V",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_70010V"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_70321P",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_70321P"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_70042L",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_70042L"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_76334I",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_76334I"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_70830N",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_70830N"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_72170H",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_72170H"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_76152C",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_76152C"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_70450D",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_70450D"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_76104O",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_76104O"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#school_76075K",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "school_76075K"
+      }
+    } ],
+    "comment" : {
+      "en" : "community college schools",
+      "undefined" : "community college schools"
+    },
+    "id" : "5",
+    "superClasses" : [ "0" ]
+  }, {
+    "iri" : "http://group-e/ontology#County",
+    "baseIri" : "http://group-e/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "County",
+      "en" : "Ireland County",
+      "undefined" : "Ireland County"
+    },
+    "individuals" : [ {
+      "iri" : "http://group-e/ontology#LEITRIM",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "LEITRIM",
+        "en" : "LEITRIM",
+        "undefined" : "LEITRIM"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#CAVAN",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "CAVAN",
+        "en" : "CAVAN",
+        "undefined" : "CAVAN"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#LAOIS",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "LAOIS",
+        "en" : "LAOIS",
+        "undefined" : "LAOIS"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#KILDARE",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "KILDARE",
+        "en" : "KILDARE",
+        "undefined" : "KILDARE"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#DONEGAL",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "DONEGAL",
+        "en" : "DONEGAL",
+        "undefined" : "DONEGAL"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#MAYO",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "MAYO",
+        "en" : "MAYO",
+        "undefined" : "MAYO"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#WATERFORD",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "WATERFORD",
+        "en" : "WATERFORD",
+        "undefined" : "WATERFORD"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#OFFALY",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "OFFALY",
+        "en" : "OFFALY",
+        "undefined" : "OFFALY"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#LIMERICK",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "LIMERICK",
+        "en" : "LIMERICK",
+        "undefined" : "LIMERICK"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#ROSCOMMON",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "ROSCOMMON",
+        "en" : "ROSCOMMON",
+        "undefined" : "ROSCOMMON"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#SLIGO",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "SLIGO",
+        "en" : "SLIGO",
+        "undefined" : "SLIGO"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#KERRY",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "KERRY",
+        "en" : "KERRY",
+        "undefined" : "KERRY"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#CORK",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "CORK",
+        "en" : "CORK",
+        "undefined" : "CORK"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#CLARE",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "CLARE",
+        "en" : "CLARE",
+        "undefined" : "CLARE"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#MONAGHAN",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "MONAGHAN",
+        "en" : "MONAGHAN",
+        "undefined" : "MONAGHAN"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#GALWAY",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "GALWAY",
+        "en" : "GALWAY",
+        "undefined" : "GALWAY"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#TIPPERARY",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "TIPPERARY",
+        "en" : "TIPPERARY",
+        "undefined" : "TIPPERARY"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#WEXFORD",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "WEXFORD",
+        "en" : "WEXFORD",
+        "undefined" : "WEXFORD"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#MEATH",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "MEATH",
+        "en" : "MEATH",
+        "undefined" : "MEATH"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#LOUTH",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "LOUTH",
+        "en" : "LOUTH",
+        "undefined" : "LOUTH"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#CARLOW",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "CARLOW",
+        "en" : "CARLOW",
+        "undefined" : "CARLOW"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#LONGFORD",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "LONGFORD",
+        "en" : "LONGFORD",
+        "undefined" : "LONGFORD"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#KILKENNY",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "KILKENNY",
+        "en" : "KILKENNY",
+        "undefined" : "KILKENNY"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#WICKLOW",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "WICKLOW",
+        "en" : "WICKLOW",
+        "undefined" : "WICKLOW"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#DUBLIN",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "DUBLIN",
+        "en" : "DUBLIN",
+        "undefined" : "DUBLIN"
+      }
+    }, {
+      "iri" : "http://group-e/ontology#WESTMEATH",
+      "baseIri" : "http://group-e/ontology",
+      "labels" : {
+        "IRI-based" : "WESTMEATH",
+        "en" : "WESTMEATH",
+        "undefined" : "WESTMEATH"
+      }
+    } ],
+    "comment" : {
+      "en" : "Ireland Counties",
+      "undefined" : "Ireland Counties"
+    },
+    "id" : "7"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "28",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://group-e/ontology#geoHive",
+    "baseIri" : "http://group-e/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "geoHive",
+      "en" : "decribes counties in the country of Ireland",
+      "undefined" : "Locations"
+    },
+    "comment" : {
+      "en" : "decribes counties in the country of Ireland",
+      "undefined" : "decribes counties in the country of Ireland"
+    },
+    "id" : "9"
+  } ],
+  "property" : [ {
+    "id" : "6",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "8",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "16",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "21",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "17",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "22",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "24",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "25",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "26",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "27",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "29",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "30",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "31",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "32",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "33",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "34",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "35",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "36",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "37",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "38",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "39",
+    "type" : "rdfs:SubClassOf"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "http://group-e/ontology#hasSchools",
+    "baseIri" : "http://group-e/ontology",
+    "range" : "0",
+    "label" : {
+      "IRI-based" : "hasSchools",
+      "en" : "county has this school",
+      "undefined" : "county has this school"
+    },
+    "domain" : "7",
+    "comment" : {
+      "en" : "county has this school",
+      "undefined" : "county has this school"
+    },
+    "attributes" : [ "object" ],
+    "id" : "6"
+  }, {
+    "iri" : "http://group-e/ontology#EIRcode",
+    "baseIri" : "http://group-e/ontology",
+    "range" : "10",
+    "label" : {
+      "IRI-based" : "EIRcode",
+      "en" : "EIR code",
+      "undefined" : "EIR code"
+    },
+    "cardinality" : "1",
+    "domain" : "9",
+    "comment" : {
+      "en" : "EIR code",
+      "undefined" : "EIR code"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "8"
+  }, {
+    "iri" : "http://group-e/ontology#smallerThan",
+    "inverse" : "17",
+    "baseIri" : "http://group-e/ontology",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "smallerThan",
+      "en" : "smallerThan",
+      "undefined" : "smallerThan"
+    },
+    "domain" : "7",
+    "comment" : {
+      "en" : "conties having smallerThan area than this one",
+      "undefined" : "conties having smallerThan area than this one"
+    },
+    "attributes" : [ "object", "transitive" ],
+    "id" : "16"
+  }, {
+    "iri" : "http://group-e/ontology#inCounty",
+    "inverse" : "6",
+    "baseIri" : "http://group-e/ontology",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "inCounty",
+      "en" : "this school is in this particular county area",
+      "undefined" : "this school is in this particular county area"
+    },
+    "domain" : "0",
+    "comment" : {
+      "en" : "this school is in this particular county area",
+      "undefined" : "this school is in this particular county area"
+    },
+    "attributes" : [ "object" ],
+    "id" : "21"
+  }, {
+    "iri" : "http://group-e/ontology#biggerThan",
+    "baseIri" : "http://group-e/ontology",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "biggerThan",
+      "en" : "biggerThan",
+      "undefined" : "biggerThan"
+    },
+    "domain" : "7",
+    "comment" : {
+      "en" : "conties having larger area than this one",
+      "undefined" : "conties having larger area than this one"
+    },
+    "attributes" : [ "object", "transitive" ],
+    "id" : "17"
+  }, {
+    "iri" : "http://group-e/ontology#sharesBoundaryWith",
+    "baseIri" : "http://group-e/ontology",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "sharesBoundaryWith",
+      "en" : "shares boundary with",
+      "undefined" : "shares boundary with"
+    },
+    "domain" : "7",
+    "comment" : {
+      "en" : "shares boundary with counties",
+      "undefined" : "shares boundary with counties"
+    },
+    "attributes" : [ "symmetric", "object" ],
+    "id" : "22"
+  }, {
+    "iri" : "http://group-e/ontology#OfficialSchoolName",
+    "baseIri" : "http://group-e/ontology",
+    "range" : "11",
+    "label" : {
+      "IRI-based" : "OfficialSchoolName",
+      "en" : "School Name",
+      "undefined" : "School Name"
+    },
+    "cardinality" : "1",
+    "domain" : "0",
+    "comment" : {
+      "en" : "School Name",
+      "undefined" : "School Name"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "24"
+  }, {
+    "iri" : "http://group-e/ontology#SchoolRollno",
+    "baseIri" : "http://group-e/ontology",
+    "range" : "12",
+    "label" : {
+      "IRI-based" : "SchoolRollno",
+      "en" : "School Roll no",
+      "undefined" : "School Roll no"
+    },
+    "cardinality" : "1",
+    "domain" : "0",
+    "comment" : {
+      "en" : "School Roll no",
+      "undefined" : "School Roll no"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "25"
+  }, {
+    "iri" : "http://group-e/ontology#area",
+    "baseIri" : "http://group-e/ontology",
+    "range" : "18",
+    "label" : {
+      "IRI-based" : "area",
+      "en" : "area of county",
+      "undefined" : "area of county"
+    },
+    "cardinality" : "1",
+    "domain" : "7",
+    "comment" : {
+      "en" : "area of a county",
+      "undefined" : "area of a county"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "26"
+  }, {
+    "iri" : "http://group-e/ontology#hasSchoolType",
+    "baseIri" : "http://group-e/ontology",
+    "range" : "28",
+    "label" : {
+      "IRI-based" : "hasSchoolType",
+      "en" : "has school type",
+      "undefined" : "has school type"
+    },
+    "domain" : "0",
+    "comment" : {
+      "en" : "has school type",
+      "undefined" : "has school type"
+    },
+    "attributes" : [ "object" ],
+    "id" : "27"
+  }, {
+    "iri" : "http://group-e/ontology#latitude",
+    "baseIri" : "http://group-e/ontology",
+    "range" : "19",
+    "label" : {
+      "IRI-based" : "latitude",
+      "en" : "latitude",
+      "undefined" : "latitude"
+    },
+    "cardinality" : "1",
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "29"
+  }, {
+    "iri" : "http://group-e/ontology#longitude",
+    "baseIri" : "http://group-e/ontology",
+    "range" : "20",
+    "label" : {
+      "IRI-based" : "longitude"
+    },
+    "cardinality" : "1",
+    "domain" : "9",
+    "comment" : {
+      "en" : "longitude",
+      "undefined" : "longitude"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "30"
+  }, {
+    "iri" : "http://group-e/ontology#addressLine1",
+    "baseIri" : "http://group-e/ontology",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "addressLine1",
+      "en" : "address line 1",
+      "undefined" : "address line 1"
+    },
+    "cardinality" : "1",
+    "domain" : "9",
+    "comment" : {
+      "en" : "address line 1",
+      "undefined" : "address line 1"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "31"
+  }, {
+    "range" : "0",
+    "domain" : "4",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "32"
+  }, {
+    "range" : "0",
+    "domain" : "3",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "33"
+  }, {
+    "range" : "0",
+    "domain" : "5",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "34"
+  }, {
+    "iri" : "http://group-e/ontology#LocalAuthority",
+    "baseIri" : "http://group-e/ontology",
+    "range" : "23",
+    "label" : {
+      "IRI-based" : "LocalAuthority",
+      "en" : "Local Authority",
+      "undefined" : "Local Authority"
+    },
+    "cardinality" : "1",
+    "domain" : "0",
+    "comment" : {
+      "en" : "Local Authority",
+      "undefined" : "Local Authority"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "35"
+  }, {
+    "iri" : "http://group-e/ontology#addressLine3",
+    "baseIri" : "http://group-e/ontology",
+    "range" : "15",
+    "label" : {
+      "IRI-based" : "addressLine3",
+      "en" : "address line 3",
+      "undefined" : "address line 3"
+    },
+    "cardinality" : "1",
+    "domain" : "9",
+    "comment" : {
+      "en" : "address line 3",
+      "undefined" : "address line 3"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "36"
+  }, {
+    "range" : "0",
+    "domain" : "2",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "37"
+  }, {
+    "iri" : "http://group-e/ontology#addressLine2",
+    "baseIri" : "http://group-e/ontology",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "addressLine2",
+      "en" : "address line 2",
+      "undefined" : "address line 2"
+    },
+    "cardinality" : "1",
+    "domain" : "9",
+    "comment" : {
+      "en" : "address line 2",
+      "undefined" : "address line 2"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "38"
+  }, {
+    "range" : "0",
+    "domain" : "1",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "39"
+  } ]
+}
