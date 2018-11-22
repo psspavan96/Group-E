@@ -1,0 +1,24 @@
+Number of Primary School, Secondry School ,Community School, Community College School and Other Schools in each county.
+<queryStart>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX base: <http://group-e/ontology#>
+select ?county ((COUNT(?schoolS)) AS ?noOfSecondarySchool) ((COUNT(?schoolP)) AS ?noOfPrimarySchool) ((COUNT(?schoolCS)) AS ?noOfCommunitySchool) ((COUNT(?schoolCCS)) AS ?noOfCommunityCollegeSchool) ((COUNT(?schoolOS)) AS ?noOfOthersSchool) 
+WHERE {
+{?schoolS a base:secondarySchool.
+?schoolS base:inCounty ?county.}  
+UNION
+{?schoolP a base:primarySchool.
+?schoolP base:inCounty ?county.} 
+UNION
+{?schoolCS a base:communitySchool.
+?schoolCS base:inCounty ?county.} 
+UNION
+{?schoolCCS a base:communityCollegeSchool.
+?schoolCCS base:inCounty ?county.} 
+UNION
+{?schoolOS a base:othersSchool.
+?schoolOS base:inCounty ?county.} 
+} group by ?county

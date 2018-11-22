@@ -1,0 +1,24 @@
+School name, roll number and address of communitySchool in county having least area and shares boundary with Dublin
+<queryStart>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>   
+PREFIX owl: <http://www.w3.org/2002/07/owl#>   
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>   
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>   
+PREFIX base: <http://group-e/ontology#>   
+select ?county  ?schoolName  ?schoolRollNo ?addressLine1 ?addressLine2
+WHERE     
+{
+?schoolS a base:communitySchool.
+?schoolS base:inCounty ?county. 
+?schoolS base:addressLine1 ?addressLine1.
+?schoolS base:addressLine2 ?addressLine2.
+?schoolS base:officialSchoolName ?schoolName.
+?schoolS base:schoolRollno ?schoolRollNo.
+{   
+select  ?county 
+WHERE {    
+base:DUBLIN base:sharesBoundaryWith ?county.
+?schoolS base:inCounty ?county.
+?county base:area ?area. 
+} order by ?area LIMIT 1 }
+} 

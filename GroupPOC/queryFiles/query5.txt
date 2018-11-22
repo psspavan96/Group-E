@@ -1,0 +1,37 @@
+Number of primarySchool , secondarySchool, communityCollegeSchool,communitySchool,othersSchool in each local authority in Dublin
+<queryStart>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX base: <http://group-e/ontology#>
+select ?localAuthorityName ((COUNT(?schoolS)) AS ?noOfSecondarySchool) ((COUNT(?schoolP)) AS ?noOfPrimarySchool) ((COUNT(?schoolCS)) AS ?noOfCommunitySchool) ((COUNT(?schoolCCS)) AS ?noOfCommunityCollegeSchool) ((COUNT(?schoolOS) -  ?noOfSecondarySchool - ?noOfCommunityCollegeSchool - ?noOfCommunitySchool - ?noOfPrimarySchool) AS ?noOfOthersSchool) 
+WHERE {
+{
+select  ?localAuthorityName 
+	 		WHERE     
+	 		{?schoolS base:hasLocalAuthority ?localAthority.
+	 		?localAthority  base:localAuthorityName ?localAuthorityName .
+	 		?schoolS base:inCounty base:DUBLIN 
+	 		} group by ?localAuthorityName}
+{?schoolS a base:secondarySchool.
+?schoolS base:hasLocalAuthority ?localAthority.
+?localAthority  base:localAuthorityName ?localAuthorityName .}  
+UNION
+{?schoolP a base:primarySchool.
+?schoolP base:hasLocalAuthority ?localAthority.
+?localAthority  base:localAuthorityName ?localAuthorityName .} 
+UNION
+{?schoolCS a base:communitySchool.
+?schoolCS base:hasLocalAuthority ?localAthority.
+?localAthority  base:localAuthorityName ?localAuthorityName .} 
+UNION
+{?schoolCCS a base:communityCollegeSchool.
+?schoolCCS base:hasLocalAuthority ?localAthority.
+?localAthority  base:localAuthorityName ?localAuthorityName .} 
+UNION
+{?schoolOS a base:school.
+?schoolOS base:hasLocalAuthority ?localAthority.
+?localAthority  base:localAuthorityName ?localAuthorityName .} 
+} group by ?localAuthorityName
+

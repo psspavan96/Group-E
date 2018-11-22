@@ -1,0 +1,31 @@
+Number of primarySchool , secondarySchool, communityCollegeSchool,communitySchool,othersSchool in each local athority in dublin
+<queryStart>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX base: <http://group-e/ontology#>
+select ?localathority ((COUNT(?schoolS)) AS ?noOfSecondarySchool) ((COUNT(?schoolP)) AS ?noOfPrimarySchool) ((COUNT(?schoolCS)) AS ?noOfCommunitySchool) ((COUNT(?schoolCCS)) AS ?noOfCommunityCollegeSchool) ((COUNT(?schoolOS)) AS ?noOfOthersSchool) 
+WHERE {
+{
+select  ?localathority 
+	 		WHERE     
+	 		{?schoolS base:LocalAuthority ?localathority.
+	 		?schoolS base:inCounty base:DUBLIN 
+	 		} group by ?localathority}
+{?schoolS a base:secondarySchool.
+?schoolS base:LocalAuthority ?localathority.}  
+UNION
+{?schoolP a base:primarySchool.
+?schoolP base:LocalAuthority ?localathority.} 
+UNION
+{?schoolCS a base:communitySchool.
+?schoolCS base:LocalAuthority ?localathority.} 
+UNION
+{?schoolCCS a base:communityCollegeSchool.
+?schoolCCS base:LocalAuthority ?localathority.} 
+UNION
+{?schoolOS a base:othersSchool.
+?schoolOS base:LocalAuthority ?localathority.} 
+} group by ?localathority
+

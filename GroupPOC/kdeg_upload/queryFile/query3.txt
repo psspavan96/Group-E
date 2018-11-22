@@ -1,0 +1,12 @@
+Number of schools in each local athority in each county in alphabatical order
+<queryStart>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>  
+PREFIX owl: <http://www.w3.org/2002/07/owl#>  
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>  
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>  
+PREFIX base: <http://group-e/ontology#>  
+select ?county ?localAthority   ((COUNT(?schoolS)) AS ?numberOfSchools)   
+WHERE    
+{?schoolS base:inCounty ?county.  
+?schoolS base:LocalAuthority ?localAthority  
+}group by ?county ?localAthority order by ?county
